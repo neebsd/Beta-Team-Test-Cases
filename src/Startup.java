@@ -10,6 +10,6 @@ public class Startup {
         driver.get("http://tutorialsninja.com/demo/index.php?route=common/home");
         //driver.close();
 
-        DesktopTests.desktop_01(driver);
+        DesktopTests.initiate(driver);
     }
 }
