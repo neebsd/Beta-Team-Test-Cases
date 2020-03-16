@@ -7,7 +7,7 @@ public class Startup {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        driver.get("http://tutorialsninja.com/demo/index.php?route=common/home/");
+        driver.get("http://tutorialsninja.com/demo/index.php?route=common/home");
         //driver.close();
     }
 }
