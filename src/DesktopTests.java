@@ -20,6 +20,6 @@ public class DesktopTests {
         WebElement PCLink = driver.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/div/ul/li[1]/a"));
 
         Actions action = new Actions(driver);
-        action.moveToElement(PCLink).click();
+        action.moveToElement(PCLink).click().perform();
     }
 }
